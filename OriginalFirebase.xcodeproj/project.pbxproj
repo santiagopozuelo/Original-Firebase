@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB0D651D298A0C24006C88BE /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0D651C298A0C24006C88BE /* InitialView.swift */; };
+		AB0D651F298A0CE3006C88BE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0D651E298A0CE3006C88BE /* MapView.swift */; };
+		AB0D6521298A1072006C88BE /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0D6520298A1072006C88BE /* CircleImage.swift */; };
+		AB0D6523298A1251006C88BE /* PeopleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0D6522298A1251006C88BE /* PeopleRow.swift */; };
+		AB0D6525298A1392006C88BE /* PeopleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0D6524298A1392006C88BE /* PeopleList.swift */; };
 		AB45C2A42989F76B00351400 /* OriginalFirebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45C2A32989F76B00351400 /* OriginalFirebaseApp.swift */; };
 		AB45C2A62989F76B00351400 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB45C2A52989F76B00351400 /* ContentView.swift */; };
 		AB45C2A82989F76C00351400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB45C2A72989F76C00351400 /* Assets.xcassets */; };
@@ -39,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB0D651C298A0C24006C88BE /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
+		AB0D651E298A0CE3006C88BE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		AB0D6520298A1072006C88BE /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		AB0D6522298A1251006C88BE /* PeopleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRow.swift; sourceTree = "<group>"; };
+		AB0D6524298A1392006C88BE /* PeopleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleList.swift; sourceTree = "<group>"; };
 		AB45C2A02989F76B00351400 /* OriginalFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OriginalFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB45C2A32989F76B00351400 /* OriginalFirebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalFirebaseApp.swift; sourceTree = "<group>"; };
 		AB45C2A52989F76B00351400 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +119,11 @@
 				AB45C2A52989F76B00351400 /* ContentView.swift */,
 				AB45C2A72989F76C00351400 /* Assets.xcassets */,
 				AB45C2A92989F76C00351400 /* Preview Content */,
+				AB0D651C298A0C24006C88BE /* InitialView.swift */,
+				AB0D651E298A0CE3006C88BE /* MapView.swift */,
+				AB0D6520298A1072006C88BE /* CircleImage.swift */,
+				AB0D6522298A1251006C88BE /* PeopleRow.swift */,
+				AB0D6524298A1392006C88BE /* PeopleList.swift */,
 			);
 			path = OriginalFirebase;
 			sourceTree = "<group>";
@@ -278,8 +293,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0D651D298A0C24006C88BE /* InitialView.swift in Sources */,
+				AB0D651F298A0CE3006C88BE /* MapView.swift in Sources */,
 				AB45C2A62989F76B00351400 /* ContentView.swift in Sources */,
 				AB45C2A42989F76B00351400 /* OriginalFirebaseApp.swift in Sources */,
+				AB0D6521298A1072006C88BE /* CircleImage.swift in Sources */,
+				AB0D6525298A1392006C88BE /* PeopleList.swift in Sources */,
+				AB0D6523298A1251006C88BE /* PeopleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,11 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    enum FilterType {
+        case none, contacted, uncontacted
+    }
     var body: some View {
-        Text("Hello, world wassup!")
-            .padding()
-            .font(.title)
-            .foregroundColor(.green)
+        TabView {
+            InitialView()
+                .tabItem {
+                    Label("Everyone", systemImage: "person.3")
+                }
+            InitialView()
+                .tabItem {
+                    Label("Contacted", systemImage: "checkmark.circle")
+                }
+            InitialView()
+                .tabItem {
+                    Label("Uncontacted", systemImage: "questionmark.diamond")
+                }
+            MapView()
+                .tabItem {
+                    Label("Me", systemImage: "person.crop.square")
+                }
+        }
+        
     }
 }
 
